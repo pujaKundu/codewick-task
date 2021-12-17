@@ -317,6 +317,38 @@ a:hover {
   width: 100px;
   border: none;
 }
+.footer {
+  margin: 0 12%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+footer img {
+  margin-right: 5px;
+}
+.second-col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 80px;
+}
+.second-col a {
+  text-decoration: none;
+  padding: 10px 0;
+}
+.social-icon {
+  background-color: #282828;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.credit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 12%;
+}
+
 @media only screen and (max-width: 688px) {
   .hide {
     display: none;
@@ -484,5 +516,8 @@ a:hover {
   .free-btn {
     width: 50px;
     margin-left: -60px;
+  }
+  .footer {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
