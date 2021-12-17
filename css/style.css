@@ -74,7 +74,6 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 41px;
-  align-items: center;
   justify-items: center;
   margin: 0 12%;
 }
@@ -100,6 +99,30 @@ a:hover {
   border-radius: 50px;
   color: #ffffff;
   padding: 19px 60px;
+}
+/* main section */
+.data-storage-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 41px;
+  justify-items: center;
+  margin: 5% 12%;
+  background-image: radial-gradient(
+    38.2% 50% at 50% 50%,
+    #2e3134 0%,
+    #292b2e 100%
+  );
+  border: 2px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  padding: 5%;
+}
+.data-storage-text h1 {
+  color: #30fbef;
+  font-size: 40px;
+}
+.data-storage-text p {
+  color: #ffffff;
 }
 @media only screen and (max-width: 688px) {
   .hide {
@@ -163,13 +186,32 @@ a:hover {
   .title {
     color: #30fbef;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 38px;
   }
   .sub-text {
     color: #ffffff;
     font-size: 12px;
+    text-align: justify;
   }
   .banner-btn {
     padding: 8px 15px;
+  }
+  .data-storage-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 8% 3%;
+    margin: 8% 8%;
+  }
+  .data-storage-image {
+    width: 220px;
+    height: 220px;
+  }
+  .data-storage-text h1 {
+    font-size: 24px;
+    padding: 0 4%;
+  }
+  .data-storage-text p {
+    text-align: justify;
+    padding: 0 4%;
   }
 }
