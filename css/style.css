@@ -47,6 +47,7 @@ body {
 .purple-text {
   color: #9c69e2;
 }
+
 /* navbar styles */
 .navbar-container {
   display: flex;
@@ -306,12 +307,14 @@ a:hover {
   margin-left: -350px;
   border: none;
 }
+
 /* free section styles */
 .free-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 5% 12%;
+  padding: 5% 12%;
+  border-top: 0.7px solid #caaaf7;
 }
 
 .learn-btn {
@@ -337,10 +340,12 @@ a:hover {
   width: 100px;
   border: none;
 }
+
 .footer {
   margin: 0 12%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 8%;
 }
 footer img {
   margin-right: 5px;
@@ -370,6 +375,7 @@ footer img {
   align-items: center;
   justify-content: space-between;
   margin: 0 12%;
+  padding-bottom: 5%;
 }
 
 @media only screen and (max-width: 688px) {
