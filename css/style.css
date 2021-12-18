@@ -283,6 +283,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   margin: 0 12%;
+  margin-bottom: 5%;
 }
 .subscribe {
   background-image: radial-gradient(
@@ -508,6 +509,7 @@ footer img {
     align-items: center;
     justify-content: space-between;
     margin: 0 12%;
+    margin-bottom: 7%;
   }
   .subscribe {
     background-image: radial-gradient(
